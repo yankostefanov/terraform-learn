@@ -1,10 +1,7 @@
-variable "cidr_blocks" {    
-  type = list(object({
-    cidr_block = string
-    name = string
-  }))
-  description = "vpc cider blocks and names"  
-}
-variable "environment" {
-  description = "environment"  
-}
+variable "vpc_cidr_block" {}
+variable "subnet_cidr_block" {}
+variable "avail_zone" {}
+variable "env_prefix" {}
+variable "myIP" {}
+variable "instance_type" {}
+variable "my_public_key_location" {}
