@@ -4,4 +4,5 @@ variable "avail_zone" {}
 variable "env_prefix" {}
 variable "myIP" {}
 variable "instance_type" {}
-variable "my_public_key_location" {}
+variable "image_name" {}
+variable "public_key_location" {}
